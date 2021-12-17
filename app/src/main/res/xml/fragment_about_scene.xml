@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <ConstraintSet android:id="@+id/starts" />
+
+    <ConstraintSet android:id="@+id/ends">
+
+        <Constraint
+            android:id="@+id/adib_name"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            motion:layout_goneMarginTop="15sp"
+            android:layout_marginBottom="15sp"
+            motion:layout_constraintLeft_toRightOf="@id/back_badge"
+            motion:layout_constraintRight_toLeftOf="@id/saved_background"
+            motion:layout_constraintTop_toTopOf="@id/back_badge" />
+
+        <Constraint
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15sp"
+            motion:cardBackgroundColor="#ffffff"
+            motion:cardCornerRadius="25sp"
+            motion:cardElevation="2dp"
+            android:layout_marginBottom="10dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintLeft_toLeftOf="parent"
+            motion:layout_constraintRight_toRightOf="parent"
+            motion:layout_constraintVertical_bias="0.1"
+            motion:layout_constraintTop_toBottomOf="@id/adib_birth"/>
+
+        <Constraint
+            android:id="@+id/back_badge"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            motion:cardBackgroundColor="#ffffff"
+            motion:cardCornerRadius="8sp"
+            motion:cardElevation="15dp"
+            motion:layout_constraintHorizontal_bias="0"
+            motion:layout_constraintLeft_toLeftOf="parent"
+            motion:layout_constraintRight_toLeftOf="@id/saved_background"
+            motion:layout_constraintTop_toTopOf="parent"/>
+
+        <Constraint
+            android:id="@+id/search_badge"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            motion:cardBackgroundColor="#ffffff"
+            motion:cardCornerRadius="200sp"
+            motion:cardElevation="5dp"
+            motion:layout_constraintRight_toRightOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"/>
+
+        <Constraint
+            android:id="@+id/saved_background"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            motion:cardBackgroundColor="#ffffff"
+            motion:cardCornerRadius="200sp"
+            motion:cardElevation="5dp"
+            motion:layout_constraintRight_toLeftOf="@+id/search_badge"
+            motion:layout_constraintTop_toTopOf="parent"/>
+
+    </ConstraintSet>
+
+    <Transition
+        motion:constraintSetEnd="@id/ends"
+        motion:constraintSetStart="@id/starts"
+        motion:duration="3000">
+        <KeyFrameSet></KeyFrameSet>
+        <OnSwipe
+            motion:touchAnchorId="@id/scroll"
+            motion:touchAnchorSide="top" />
+    </Transition>
+</MotionScene>

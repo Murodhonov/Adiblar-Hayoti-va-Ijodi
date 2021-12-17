@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uz.umarxon.adiblar.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_adiblarFragment"
+            app:destination="@id/adiblarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/adiblarFragment"
+        android:name="uz.umarxon.adiblar.AdiblarFragment"
+        android:label="fragment_adiblar"
+        tools:layout="@layout/fragment_adiblar" >
+        <action
+            android:id="@+id/action_adiblarFragment_to_mumtozAdabiyotFragment"
+            app:destination="@id/mumtozAdabiyotFragment" />
+        <action
+            android:id="@+id/action_adiblarFragment_to_saqlanganlarFragment"
+            app:destination="@id/saqlanganlarFragment" />
+        <action
+            android:id="@+id/action_adiblarFragment_to_sozlamalarFragment"
+            app:destination="@id/sozlamalarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/saqlanganlarFragment"
+        android:name="uz.umarxon.adiblar.SaqlanganlarFragment"
+        android:label="fragment_saqlanganlar"
+        tools:layout="@layout/fragment_saqlanganlar" >
+        <action
+            android:id="@+id/action_saqlanganlarFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_saqlanganlarFragment_to_sozlamalarFragment"
+            app:destination="@id/sozlamalarFragment" />
+        <action
+            android:id="@+id/action_saqlanganlarFragment_to_searchAdibFragment"
+            app:destination="@id/searchAdibFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sozlamalarFragment"
+        android:name="uz.umarxon.adiblar.SozlamalarFragment"
+        android:label="fragment_sozlamalar"
+        tools:layout="@layout/fragment_sozlamalar" >
+        <action
+            android:id="@+id/action_sozlamalarFragment_to_addValueFragment"
+            app:destination="@id/addValueFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mumtozAdabiyotFragment"
+        android:name="uz.umarxon.adiblar.MumtozAdabiyotFragment"
+        android:label="fragment_mumtoz_adabiyot"
+        tools:layout="@layout/fragment_mumtoz_adabiyot" >
+        <action
+            android:id="@+id/action_mumtozAdabiyotFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/uzbekAdabiyotFragment"
+        android:name="uz.umarxon.adiblar.UzbekAdabiyotFragment"
+        android:label="fragment_uzbek_adabiyot"
+        tools:layout="@layout/fragment_uzbek_adabiyot" >
+        <action
+            android:id="@+id/action_uzbekAdabiyotFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/jahonAdabiyotiFragment"
+        android:name="uz.umarxon.adiblar.JahonAdabiyotiFragment"
+        android:label="fragment_jahon_adabiyoti"
+        tools:layout="@layout/fragment_jahon_adabiyoti" >
+        <action
+            android:id="@+id/action_jahonAdabiyotiFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_jahonAdabiyotiFragment_to_searchAdibFragment"
+            app:destination="@id/searchAdibFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addValueFragment"
+        android:name="uz.umarxon.adiblar.AddValueFragment"
+        android:label="fragment_add_value"
+        tools:layout="@layout/fragment_add_value" >
+        <action
+            android:id="@+id/action_addValueFragment_to_searchAdibFragment"
+            app:destination="@id/searchAdibFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="uz.umarxon.adiblar.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/searchAdibFragment"
+        android:name="uz.umarxon.adiblar.SearchAdibFragment"
+        android:label="fragment_search_adib"
+        tools:layout="@layout/fragment_search_adib" />
+    <fragment
+        android:id="@+id/imageVIewFragment"
+        android:name="uz.umarxon.adiblar.ImageVIewFragment"
+        android:label="fragment_image_v_iew"
+        tools:layout="@layout/fragment_image_v_iew" />
+</navigation>

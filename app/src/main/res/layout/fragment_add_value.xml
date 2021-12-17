@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".AddValueFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Adib Qo'shish"
+           android:textColor="@color/black"
+           android:textSize="25sp"
+           android:padding="10dp"
+           android:textStyle="bold" />
+
+       <ImageView
+           android:id="@+id/image"
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           android:src="@drawable/userhead"
+           android:layout_gravity="center_horizontal"/>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/rasm"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           app:cardElevation="7sp"
+           android:layout_marginTop="5sp"
+           android:layout_gravity="center_horizontal"
+           android:outlineSpotShadowColor="#00B238"
+           android:outlineAmbientShadowColor="#00B238"
+           app:cardCornerRadius="20sp">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Adib rasmi"
+               android:textColor="@color/white"
+               android:paddingHorizontal="50dp"
+               android:paddingVertical="10sp"
+               android:background="#00B238"
+               android:gravity="center"/>
+
+       </androidx.cardview.widget.CardView>
+
+
+       <EditText
+           android:id="@+id/name"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginHorizontal="10dp"
+           android:background="#C4C4C4"
+           android:textColor="#979797"
+           android:textColorHint="#979797"
+           android:padding="15sp"
+           android:hint="Adib ismi, familiyasi va otasining ismi"
+           android:layout_marginVertical="5sp"/>
+
+
+       <EditText
+           android:id="@+id/birthday"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginHorizontal="10dp"
+           android:background="#C4C4C4"
+           android:textColor="#979797"
+           android:textColorHint="#979797"
+           android:padding="15sp"
+           android:hint="@string/birthdate"
+           android:layout_marginVertical="5sp"/>
+
+
+       <EditText
+           android:id="@+id/diedate"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginHorizontal="10dp"
+           android:background="#C4C4C4"
+           android:textColor="#979797"
+           android:textColorHint="#979797"
+           android:padding="15sp"
+           android:hint="Vafot etgan yili"
+           android:layout_marginVertical="5sp"/>
+
+       <Spinner
+           android:id="@+id/type"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginHorizontal="10dp"
+           android:padding="15sp"
+           android:entries="@array/array1"
+           android:layout_marginVertical="5sp"
+           android:background="#C4C4C4"/>
+
+       <EditText
+           android:id="@+id/about"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:layout_marginHorizontal="10dp"
+           android:background="#C4C4C4"
+           android:textColor="#979797"
+           android:textColorHint="#979797"
+           android:gravity="top"
+           android:padding="15sp"
+           android:hint="Adib haqida to’liq ma’lumot"
+           android:layout_marginVertical="5sp"/>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/save"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           app:cardElevation="7sp"
+           android:layout_margin="10dp"
+           android:layout_gravity="right"
+           android:outlineSpotShadowColor="#00B238"
+           android:outlineAmbientShadowColor="#00B238"
+           app:cardCornerRadius="20sp">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Saqlash"
+               android:textColor="@color/white"
+               android:paddingHorizontal="50dp"
+               android:paddingVertical="10sp"
+               android:background="#00B238"
+               android:gravity="center"/>
+
+       </androidx.cardview.widget.CardView>
+
+   </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

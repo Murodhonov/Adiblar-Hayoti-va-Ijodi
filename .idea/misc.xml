@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/drawable-v24/ic_vector.xml" value="0.2875" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/drawable-v24/smooth_bottom_bar_bg.xml" value="0.2875" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/drawable/back_select.xml" value="0.2875" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/drawable/back_tabs.xml" value="0.2875" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/drawable/ic_group_1.xml" value="0.2875" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/drawable/tab_indicator_bg.xml" value="0.2875" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/drawable/tab_layout_bg.xml" value="0.2875" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout-land/activity_main.xml" value="0.264" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout-land/fragment_adiblar.xml" value="0.176" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout-land/fragment_home.xml" value="0.4" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout-land/fragment_jahon_adabiyoti.xml" value="0.264" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout-land/fragment_mumtoz_adabiyot.xml" value="0.4140625" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout-land/fragment_saqlanganlar.xml" value="0.152" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout-land/fragment_search_adib.xml" value="0.296875" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout-land/fragment_sozlamalar.xml" value="0.152" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout-land/fragment_uzbek_adabiyot.xml" value="0.264" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout/activity_main.xml" value="0.2713541666666667" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout/fragment_about.xml" value="0.264" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout/fragment_add_value.xml" value="0.264" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout/fragment_adiblar.xml" value="0.264" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout/fragment_image_v_iew.xml" value="0.2713541666666667" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout/fragment_jahon_adabiyoti.xml" value="0.2713541666666667" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout/fragment_mumtoz_adabiyot.xml" value="0.4" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout/fragment_saqlanganlar.xml" value="0.2713541666666667" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout/fragment_search_adib.xml" value="0.2713541666666667" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout/fragment_sozlamalar.xml" value="0.264" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout/fragment_uzbek_adabiyot.xml" value="0.2713541666666667" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout/item_adapter1.xml" value="0.2713541666666667" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout/item_rv.xml" value="0.4" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/layout/item_tab.xml" value="0.4" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/menu/menu.xml" value="0.2713541666666667" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/menu/menu_bottom.xml" value="0.2713541666666667" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/xml/about_fragment_scence.xml" value="0.2713541666666667" />
+        <entry key="..\:/Android_Studio/Projects/AdiblarDESIGN/app/src/main/res/xml/fragment_writer_view_scene.xml" value="0.2713541666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
